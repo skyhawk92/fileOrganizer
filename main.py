@@ -27,6 +27,7 @@ extensions = {
 }
 other_folder_name = "Other"
 extension_folders = set(extensions.values())
+extension_folders.add("Other")
 
 
 for filename in os.listdir(directory):
